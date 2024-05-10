@@ -1,0 +1,252 @@
+.image1Icon {
+  width: 123px;
+  height: 120px;
+  position: relative;
+  object-fit: contain;
+}
+.welcomeHowMay {
+  position: absolute;
+  margin: 0 !important;
+  top: 140px;
+  left: 98px;
+  font-size: var(--font-size-81xl);
+  letter-spacing: 0.1px;
+  line-height: 100px;
+  font-weight: 700;
+  font-family: var(--font-inter);
+  background: linear-gradient(90deg, #0041e8, #312f82);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+.fAQContainerChild {
+  height: 701px;
+  width: 1633px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    180deg,
+    rgba(187, 187, 187, 0.25),
+    rgba(85, 85, 85, 0.25)
+  );
+  display: none;
+  max-width: 100%;
+}
+.doesUtsProvide {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+}
+.specificQuestionDetails,
+.specificQuestionDetailsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.specificQuestionDetails {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-floralwhite);
+  overflow: hidden;
+  padding: var(--padding-xl);
+  white-space: nowrap;
+}
+.specificQuestionDetailsWrapper {
+  padding: 0 61px;
+}
+.whatAreThe {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+}
+.faqInner,
+.whatAreTheProgrammesOffereWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.whatAreTheProgrammesOffereWrapper {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-floralwhite);
+  overflow: hidden;
+  padding: var(--padding-xl);
+}
+.faqInner {
+  padding: 0 24px 0 24.5px;
+}
+.whatAreThe1 {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+}
+.faqChild,
+.whatAreTheTuitionFeesForWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.whatAreTheTuitionFeesForWrapper {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-floralwhite);
+  overflow: hidden;
+  padding: var(--padding-xl) 19px;
+}
+.faqChild {
+  padding: 0 1px 0 1.5px;
+}
+.howDoI {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+}
+.applicationGuide,
+.fAQContainer,
+.fAQContainerWrapper,
+.faq {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.applicationGuide {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-floralwhite);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-xl);
+}
+.fAQContainer,
+.fAQContainerWrapper,
+.faq {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.faq {
+  border-radius: 15px;
+  background-color: var(--color-darkslateblue-200);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xl);
+  gap: 20px;
+  z-index: 1;
+}
+.fAQContainer,
+.fAQContainerWrapper {
+  flex-direction: row;
+}
+.fAQContainer {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    180deg,
+    rgba(187, 187, 187, 0.25),
+    rgba(85, 85, 85, 0.25)
+  );
+  padding: 199px 33px 162px;
+}
+.fAQContainerWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-15xl);
+}
+.frameChild {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 66px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  font-family: var(--font-inter);
+  font-weight: 600;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkgray);
+  z-index: 1;
+  margin-top: -147px;
+}
+.frameParent {
+  width: 1701px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-23xl);
+  max-width: 100%;
+}
+.frameParent,
+.home,
+.homeInner {
+  display: flex;
+  box-sizing: border-box;
+}
+.homeInner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-6xs) 0 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.home {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(180deg, #fff, #bad5ff);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-xl) 0;
+  gap: var(--gap-259xl);
+  line-height: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+}
+@media screen and (max-width: 975px) {
+  .home {
+    gap: var(--gap-120xl);
+  }
+}
+@media screen and (max-width: 950px) {
+  .welcomeHowMay {
+    font-size: var(--font-size-31xl);
+    line-height: 60px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .specificQuestionDetailsWrapper {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .fAQContainer {
+    padding-top: 129px;
+    padding-bottom: 105px;
+    box-sizing: border-box;
+  }
+  .frameParent {
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .home {
+    gap: var(--gap-50xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcomeHowMay {
+    font-size: var(--font-size-11xl);
+    line-height: 40px;
+  }
+  .howDoI,
+  .whatAreThe,
+  .whatAreThe1 {
+    font-size: var(--font-size-xl);
+    line-height: 16px;
+  }
+}
